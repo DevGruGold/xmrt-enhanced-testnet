@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Web3Button } from '@web3modal/react';
+import { Web3Button } from '@web3modal/wagmi/react';
 
 const Navbar = () => {
   return (
@@ -31,3 +31,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
